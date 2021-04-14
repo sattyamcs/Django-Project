@@ -1,0 +1,6 @@
+1.open code in vs code
+2.installed with python and django
+3.to run server-- python manage.py runserver
+4.here you welcomes to the homepage
+5.here i used contact page to store data to database
+6.server/admin to go to admin page/database
