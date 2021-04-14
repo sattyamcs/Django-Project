@@ -1,0 +1,130 @@
+{% extends 'base.html' %}
+
+{% block title %} Home {% endblock title %}
+
+{% block body %} 
+<div class="container my-3">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/cloth2.jpg" class="d-block w-100" alt="..."width="400" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/cloth1.jpg" class="d-block w-100" alt="..."width="400" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/cloth.jpg" class="d-block w-100" alt="..."width="400" height="500">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+
+<div class="album bg-light">  
+<h1 class="my-4 text-center">Select from the Range</h1>
+    <div class="container"> 
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="static/img/sub.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+            <div class="card-body">
+              <p class="card-text">“Fashion is a language that creates itself in clothes to interpret reality.”</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-muted">Recently Viewed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="static/img/sub1.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+            <div class="card-body">
+              <p class="card-text">"In a meat-eating world, wearing leather for shoes and even clothes, the discussion of fur is childish.”</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-muted">Recently Viewed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="static/img/sub2.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+            <div class="card-body">
+              <p class="card-text">“I want everyone to wear what they want and mix it in their own way. That, to me, is what is modern.”</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-muted">Recently Viewed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="static/img/sub3.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-muted">Recently Viewed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="static/img/sub5.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-muted">Recently Viewed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="static/img/sub4.jpg" class="d-block w-100" alt="..." height="400px" width="400px">
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Buy</button>
+                </div>
+                <small class="text-muted">Recently Viewed</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+ {% endblock body %}
+
